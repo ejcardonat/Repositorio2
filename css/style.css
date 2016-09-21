@@ -1,0 +1,105 @@
+#contenidos
+{
+width: 1000px;
+height: auto;
+margin: auto;
+position: relative;
+}/*Etiquetas*/
+body
+{
+background-image: url(../img/example1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+h1{
+	font-family: 'shadows Into Light', cursive;
+	color: white;
+	margin-left: 30px;
+	font-size: 65px;
+	text-align: center;
+}
+/*h2{
+	font-family: 'shadows Into Light', cursive;
+	margin-left: 10px;
+	font-size: 10px;
+	text-align: left;
+	letter-spacing: 1px;
+	padding: 8px;
+}*/
+h3{
+	font-family: 'shadows Into Light', cursive;
+	margin-left: 9px;
+	font-size: 25px;
+	text-align: left;
+	letter-spacing: 1px;
+	padding: 10px;
+
+}
+h4{
+	width: 1000px;
+	margin-left: auto;
+	text-align: auto;
+	color: white;
+	
+
+	}
+	header{
+
+	width: 1000px;
+	height: 127px;
+	background: white;
+	border-radius: 11.5px;
+	box-shadow: 0 0 10px white inset;
+
+}
+nav{
+	width: 1000px;
+	height: 65px;
+	background: orange;
+	border-radius: 9px;
+	box-shadow: 0 0 8px white inset;
+}
+ul{
+margin: auto;
+padding-top: 1px;
+}
+li{
+	float: right;
+	list-style-type:none; 
+	padding: 8px;
+	background: white text-decoration-style;
+    margin: 12px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black inset;
+}
+section{
+width: 1000px;
+background: white;
+height: 900px;
+float: right;
+}
+aside{
+	width: 1000px;
+	background: orange;
+	height: 45px;
+	float: right;
+	margin: 18;
+}
+footer
+{
+	width: 1000px;
+	height: 50px;
+	background: orange;
+	float: right;
+	margin-top: 15px; 
+	border-radius: 9px;
+	box-shadow: 0 0 8px white inset;
+}
+/*CLASES*/
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+.menu: link{padding: 7px; color: white; text-decoration-style: none}
+.menu: visited: {padding: 7px;color: white; text-decoration-style: none text-shadow: 0 0 8px black}
+.menu: hover{padding: 7px;color: white; text-decoration-style: none}
+.menu:active{padding: 7px;color: white; text-decoration-style: none}
+/*SEUDO CLASES*/
